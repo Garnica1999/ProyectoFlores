@@ -1,0 +1,46 @@
+<div class="container">
+  <h2 id="titulo-calendario">¿PARA CUANDO DESEAS TUS FLORES?</h2>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-auto">
+      <input type="button" id="botonAtras" name="Atras" value="Atras" style="display:inline-block;width:80px;height:25px;z-index:0;">
+    </div>
+    <div class="col-lg-9">
+      <div id="wb_textTeader">
+        <span style="color:#606060;font-family:Arial;font-size:21px;"><%= @month + " - " + (@year.to_s) %></span>
+      </div>
+    </div>
+    <div class="col-md-auto">
+      <input type="button" id="BotonSiguiente" name="Siguiente" value="Siguiente" style="display:inline-block;width:80px;height:25px;z-index:2;">
+    </div>
+  </div>
+  <% days = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"] %>
+  <div id="container">
+    <table class="table">
+      <thead class="thead-light">
+        <tr>
+          <% days.each do |day| %>
+          <th>
+            <%= day %>
+          </th>
+          <% end %>
+        </tr>
+      </thead>
+      <tbody>
+
+        <% for i in 0..4%>
+          <tr>
+            <% for j in 0..6%>
+              <td>
+                <button type="button" class="btn btn-light" style="padding: 5px; width: 60px; height: 60px"><%= @array[i][j] %></button>
+              </td>
+            <%end%>
+          </tr>
+        <%end%>
+      </tbody>
+    </table>
+  </div>
+
+
+</div>

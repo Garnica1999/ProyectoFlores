@@ -1,0 +1,176 @@
+#tableCalendar {
+    border: 2px solid #C0C0C0;
+    background-color: transparent;
+    background-image: none;
+    border-collapse: separate;
+    border-spacing: 1px;
+    margin: 0;
+}
+#tableCalendar td {
+    padding: 0;
+}
+#tableCalendar td div {
+    white-space: nowrap;
+}
+#tableCalendar .cell0 {
+    background-color: transparent;
+    background-image: none;
+    border: 1px #C0C0C0 solid;
+    text-align: left;
+    vertical-align: top;
+}
+#wb_calendarHeader {
+    clear: both;
+    position: relative;
+    table-layout: fixed;
+    display: table;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #CCCCCC;
+    box-sizing: border-box;
+    margin: 0;
+}
+#calendarHeader {
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+#calendarHeader .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+#calendarHeader>.row>.col-1, #calendarHeader>.row>.col-2, #calendarHeader>.row>.col-3 {
+    box-sizing: border-box;
+    font-size: 0px;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+}
+#calendarHeader>.row>.col-1, #calendarHeader>.row>.col-2, #calendarHeader>.row>.col-3 {
+    float: left;
+}
+#calendarHeader>.row>.col-1 {
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #FFFFFF;
+    width: 8.33333333%;
+    text-align: center;
+}
+#calendarHeader>.row>.col-2 {
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #FFFFFF;
+    width: 83.33333333%;
+    text-align: center;
+}
+#calendarHeader>.row>.col-3 {
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #FFFFFF;
+    width: 8.33333333%;
+    text-align: center;
+}
+#calendarHeader:before, #calendarHeader:after, #calendarHeader .row:before, #calendarHeader .row:after {
+    display: table;
+    content: " ";
+}
+#calendarHeader:after, #calendarHeader .row:after {
+    clear: both;
+}
+@media (max-width: 480px) {
+    #calendarHeader>.row>.col-1, #calendarHeader>.row>.col-2, #calendarHeader>.row>.col-3 {
+        float: none;
+        width: 100% !important;
+    }
+}
+#wb_contentCalendar {
+    clear: both;
+    position: relative;
+    table-layout: fixed;
+    display: table;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #CCCCCC;
+    box-sizing: border-box;
+    margin: 0;
+}
+#contentCalendar {
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+#contentCalendar .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+#contentCalendar>.row>.col-1 {
+    box-sizing: border-box;
+    font-size: 0px;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+}
+#contentCalendar>.row>.col-1 {
+    float: left;
+}
+#contentCalendar>.row>.col-1 {
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #FFFFFF;
+    width: 100%;
+    text-align: center;
+}
+#contentCalendar:before, #contentCalendar:after, #contentCalendar .row:before, #contentCalendar .row:after {
+    display: table;
+    content: " ";
+}
+#contentCalendar:after, #contentCalendar .row:after {
+    clear: both;
+}
+@media (max-width: 480px) {
+    #contentCalendar>.row>.col-1 {
+        float: none;
+        width: 100% !important;
+    }
+}
+#botonAtras {
+    border: 1px solid #2E6DA4;
+    border-radius: 4px;
+    background-color: #3370B7;
+    background-image: none;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+    margin: 0;
+}
+#BotonSiguiente {
+    border: 1px solid #2E6DA4;
+    border-radius: 4px;
+    background-color: #3370B7;
+    background-image: none;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+    margin: 0;
+}
+#wb_textTeader {
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #000000;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#wb_textTeader div {
+    text-align: center;
+}

@@ -13,5 +13,10 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 Rails.application.config.assets.precompile += %w( normalize.css
-	main.css 
+	main.css
+	all.min.css
+	calendar.css
+	initCalendar.css
+	font-awesome.min.css
+	calendar.css
 )
